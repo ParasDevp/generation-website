@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.ListNames{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+.List {
+    margin-left: 50px !important;
+    font-size: 20px !important;
+    font-weight: 900 !important;
+    color:rgba(255, 255, 255, 0.7) !important;
+    text-decoration: none !important;
+    cursor: pointer !important;
+    font-style:  normal;
+    /* font-family: 'Poppins', sans-serif; */
+    
+}
+.List:hover {
+    color: white !important;
+}
+.LogoImg {
+    height: 45px;
+}
